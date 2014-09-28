@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		E261E6AE19D7020000E29A05 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = E261E6AD19D7020000E29A05 /* Array2D.swift */; };
+		E261E6B019D7078100E29A05 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = E261E6AF19D7078100E29A05 /* Block.swift */; };
+		E261E6B219D79CEF00E29A05 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = E261E6B119D79CEF00E29A05 /* Shape.swift */; };
 		E2ADEBFF19D63A9A00A47A52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2ADEBFE19D63A9A00A47A52 /* AppDelegate.swift */; };
 		E2ADEC0319D63A9A00A47A52 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2ADEC0219D63A9A00A47A52 /* GameScene.swift */; };
 		E2ADEC0519D63A9A00A47A52 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2ADEC0419D63A9A00A47A52 /* GameViewController.swift */; };
@@ -41,6 +43,8 @@
 
 /* Begin PBXFileReference section */
 		E261E6AD19D7020000E29A05 /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
+		E261E6AF19D7078100E29A05 /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		E261E6B119D79CEF00E29A05 /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 		E2ADEBF919D63A9A00A47A52 /* Swiftris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiftris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2ADEBFD19D63A9A00A47A52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2ADEBFE19D63A9A00A47A52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +119,8 @@
 				E2ADEC2219D63E1A00A47A52 /* Sounds */,
 				E2ADEBFC19D63A9A00A47A52 /* Supporting Files */,
 				E261E6AD19D7020000E29A05 /* Array2D.swift */,
+				E261E6AF19D7078100E29A05 /* Block.swift */,
+				E261E6B119D79CEF00E29A05 /* Shape.swift */,
 			);
 			path = Swiftris;
 			sourceTree = "<group>";
@@ -276,7 +282,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2ADEC0319D63A9A00A47A52 /* GameScene.swift in Sources */,
+				E261E6B219D79CEF00E29A05 /* Shape.swift in Sources */,
 				E261E6AE19D7020000E29A05 /* Array2D.swift in Sources */,
+				E261E6B019D7078100E29A05 /* Block.swift in Sources */,
 				E2ADEC0519D63A9A00A47A52 /* GameViewController.swift in Sources */,
 				E2ADEBFF19D63A9A00A47A52 /* AppDelegate.swift in Sources */,
 			);
